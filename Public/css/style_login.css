@@ -1,0 +1,46 @@
+html,body,div,p,span,a,p,span{margin: 0;padding:0;}
+a{text-decoration: none;}
+html,body{height: 100%;}
+.bg{background: url("../images/login-blurry-bg.jpg");background: 100%  100% 100%}
+.top {width: 100%;height: 50px;line-height: 50px;margin: 0 auto;background: url(../images/topbg.png);position: relative;border-bottom:2px solid #001742;
+}
+.top>.logo{width: 100%;height: 50px;background: url(../images/logo.png) no-repeat;}
+.top .top-info{position: absolute;right: 0;top: 0px;color: #fff;background:#BF331D;
+	border-radius: 0 0 0 5px;padding: 0 5px;box-shadow: 0px 0px 0px 0px #cecece;}
+.top>.sousuo{position: absolute;top: 0;right:30px;}
+
+.top2 {width: 1000px;height: 50px;line-height: 50px;margin: 0 auto;background: url(../images/topbg.png);position: relative;border-bottom:2px solid #001742;}
+.top2>.fanhui{position: absolute;top: 1px;right:1px;height: 48px;width: 100px;background: rgba(157, 110, 110, 0.68);text-align: center;display: block;color: #ffffff;text-decoration: none}
+.top2>.logo{width: 100%;height: 50px;background: url(../images/logo.png) no-repeat;}
+.content{width:100%;}	
+
+/*内容页样式*/
+.nr_box{width: 1000px;margin: 0 auto;border:1px solid #cecece;border-radius: 0 0 5px 5px;position: relative}
+.nr_box>.title{height: 60px;border-bottom: 1px dashed #cecece;padding:10px;}
+.nr_box>.title>.info{font-size: 12px;color: #999191}
+.nr_box>.centent{text-indent:2em;padding:10px;}
+/*end*/
+
+.left-nav>.user{padding: 15px;text-align: center;background: url(../images/navbg.jpg);border-bottom: 1px solid #B6B6B6}
+.left-nav{width:202px;position:fixed;left:0;bottom:0;top:50px;z-index:24;background: #fff;overflow: auto;border-right: 1px solid #E0DADA;}
+.left-nav>.dh{height: 38px;position: relative;z-index: 1;background:#F9E4D4;box-shadow: 0px 2px 4px 0px #CBC3C3;}
+.left-nav>.dh>.text{text-shadow: #fff 0 1px 0;text-align: center;font-family: 'Microsoft Yahei',verdana;
+line-height: 38px;color:#671111;font-weight: bold;}
+.left-nav>.dh>.text>a{text-shadow: #fff 0 1px 0;font-family: 'Microsoft Yahei',verdana;
+line-height: 38px;color:#671111;font-weight: bold;text-decoration: none;}
+.left-nav .active{height: 40px;border: 1px solid #E0DADA;border-right: 5px solid #e0dada;background: #F9F5F5;}
+.left-nav .active>a{font-weight: bold;}
+.left-nav>ul{padding:0;margin: 10px 0;}
+.left-nav>ul>li{list-style: none;zoom: 1;position: relative;width: 201px;height:40px;line-height: 40px;}
+.left-nav>ul>li>a>i{width:20px;text-align: center;}
+.left-nav>ul>li>a>img{line-height: 20px;margin-bottom:5px}
+.left-nav>ul>li>a{text-shadow: #fff 0 1px 0;;zoom: 1;outline: 0;cursor: pointer;display:block;height: 40px;line-height: 40px;padding-left: 26px;font-size: 14px;
+	    margin-right: 1px;white-space: nowrap;position: static;vertical-align: middle;text-decoration: none;color: #222;}
+.left-nav>ul>li>a{}
+.content-right {position: absolute;left: 201px;top: 50px;bottom: 0;right: 0;padding: 0 15px;}
+.footer{position:absolute;bottom: 0;height: 47px;text-align: center;width:100%;border-top:1px solid #D3D3D3;font-size: 12px;background: url(../images/footerbg.png);padding: 15px 0;padding-left: 25px;}
+.footer2{width: 1000px;height: 47px;text-align: center;margin: 0 auto;font-size: 12px;background: url(../images/footerbg.png) no-repeat;padding: 15px 0;padding-left: 25px ;border-radius: 0 0 5px 5px;border-top: 1px dashed #cecece;}
+
+/*幻灯方向箭头样式*/
+.fx_left{width: 30px;height: 30px;margin-top: -15px;font-size: 30px;left: 0;position: absolute;top: 50%;z-index: 5;display: inline-block;}
+.fx_right{width: 30px;height: 30px;margin-top: -15px;font-size: 30px;position: absolute;top: 50%;z-index: 5;display: inline-block;margin-right: -15px;}

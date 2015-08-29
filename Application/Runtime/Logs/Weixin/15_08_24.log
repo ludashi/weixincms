@@ -1,0 +1,1898 @@
+[ 2015-08-24T15:11:11+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+NOTIC: [8] Undefined index: timestamp I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 308 行.
+NOTIC: [8] Undefined index: nonce I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 308 行.
+NOTIC: [8] Undefined index: signature I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 309 行.
+
+[ 2015-08-24T15:12:48+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000952s ]
+
+[ 2015-08-24T15:13:09+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000825s ]
+
+[ 2015-08-24T15:13:35+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000870s ]
+
+[ 2015-08-24T15:39:23+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001800s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001386s ]
+
+[ 2015-08-24T15:40:33+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001212s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0036s ]
+SQL: SELECT `appid`,`secret` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 167 行.
+
+[ 2015-08-24T15:40:39+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002926s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0038s ]
+SQL: SELECT `appid`,`secret` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 167 行.
+
+[ 2015-08-24T15:40:43+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0033s ]
+SQL: SELECT `appid`,`secret` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 167 行.
+
+[ 2015-08-24T15:44:22+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0031s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 169 行.
+
+[ 2015-08-24T15:52:29+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0038s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 171 行.
+
+[ 2015-08-24T16:02:29+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0036s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-24T16:04:51+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002311s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0036s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-08-24T16:05:05+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0036s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-08-24T16:05:32+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0031s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-24T16:06:29+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0036s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-08-24T16:06:38+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0032s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-24T16:06:54+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0037s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-08-24T16:07:29+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001950s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0037s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined property: Com\Wechat::$request I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 36 行.
+
+[ 2015-08-24T16:07:37+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0033s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-08-24T16:09:23+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0034s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: wechat I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 146 行.
+NOTIC: [8] Trying to get property of non-object I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 146 行.
+
+[ 2015-08-24T16:09:34+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001869s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0040s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-08-24T16:10:48+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001456s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0040s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-08-24T16:11:00+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0035s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-24T16:12:11+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0034s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-08-24T16:12:32+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001485s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0033s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-24T16:12:40+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0033s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-24T16:14:25+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0032s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-24T16:14:39+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0033s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-24T16:14:51+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0036s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-08-24T16:16:29+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0038s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-24T16:16:58+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0031s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-24T16:17:12+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002224s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0062s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-08-24T16:18:09+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001595s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0036s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-08-24T16:18:47+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002020s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0038s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-08-24T16:24:49+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0039s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001209s ]
+
+[ 2015-08-24T16:30:55+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0039s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001471s ]
+
+[ 2015-08-24T16:31:46+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001838s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0033s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001127s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001285s ]
+
+[ 2015-08-24T16:32:17+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001719s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0033s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_subscribe` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `wp_wexinacc_subscribe` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-08-24T16:36:04+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0031s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_subscribe` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `wp_wexinacc_subscribe` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-08-24T16:36:28+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0035s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_subscribe` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `wp_wexinacc_subscribe` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-08-24T16:55:17+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0031s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-24T17:00:02+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001427s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0036s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `msgtype` = 'subscribe' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-24T17:00:18+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002098s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0032s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `msgtype` = 'subscribe' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-08-24T17:00:33+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0037s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-08-24T17:00:57+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0042s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-08-24T17:01:26+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001560s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0035s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: type I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 127 行.
+
+[ 2015-08-24T17:04:06+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001754s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0036s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: type I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 127 行.
+
+[ 2015-08-24T17:04:13+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001696s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0031s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: type I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 127 行.
+
+[ 2015-08-24T17:04:27+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0033s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: type I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 127 行.
+
+[ 2015-08-24T17:04:44+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0036s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: type I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 127 行.
+NOTIC: [2] Missing argument 2 for Com\Wechat::replyNews(), called in I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php on line 149 and defined I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 244 行.
+NOTIC: [2] Missing argument 3 for Com\Wechat::replyNews(), called in I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php on line 149 and defined I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 244 行.
+NOTIC: [2] Missing argument 4 for Com\Wechat::replyNews(), called in I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php on line 149 and defined I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 244 行.
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T17:05:15+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002104s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0034s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: type I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 127 行.
+NOTIC: [8] Undefined index: type I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 151 行.
+
+[ 2015-08-24T17:05:43+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001448s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0037s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: type I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 127 行.
+NOTIC: [8] Undefined index: type I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 151 行.
+
+[ 2015-08-24T17:05:58+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0031s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Com\Wechat::replyNews(), called in I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php on line 146 and defined I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 244 行.
+NOTIC: [2] Missing argument 3 for Com\Wechat::replyNews(), called in I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php on line 146 and defined I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 244 行.
+NOTIC: [2] Missing argument 4 for Com\Wechat::replyNews(), called in I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php on line 146 and defined I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 244 行.
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T17:07:15+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0035s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 151 行.
+
+[ 2015-08-24T17:07:36+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0035s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 151 行.
+
+[ 2015-08-24T17:07:52+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0032s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-24T17:08:32+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0031s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] json_encode() expects at most 2 parameters, 4 given I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 152 行.
+
+[ 2015-08-24T17:08:40+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001143s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0032s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] json_encode() expects at most 2 parameters, 3 given I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 152 行.
+
+[ 2015-08-24T17:08:52+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001802s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0035s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-08-24T17:09:42+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0036s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-08-24T17:09:54+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0038s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-24T17:10:08+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001231s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0034s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-08-24T17:10:30+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0034s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-08-24T17:12:04+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001272s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0058s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-08-24T17:12:15+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001474s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0035s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-08-24T17:12:25+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0038s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Com\Wechat::replyNews(), called in I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php on line 146 and defined I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 244 行.
+NOTIC: [2] Missing argument 3 for Com\Wechat::replyNews(), called in I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php on line 146 and defined I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 244 行.
+NOTIC: [2] Missing argument 4 for Com\Wechat::replyNews(), called in I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php on line 146 and defined I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 244 行.
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T17:21:00+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0032s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Com\Wechat::replyNews(), called in I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php on line 150 and defined I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 244 行.
+NOTIC: [2] Missing argument 3 for Com\Wechat::replyNews(), called in I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php on line 150 and defined I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 244 行.
+NOTIC: [2] Missing argument 4 for Com\Wechat::replyNews(), called in I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php on line 150 and defined I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 244 行.
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T17:21:06+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001242s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0096s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-08-24T17:21:50+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001136s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0035s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-08-24T17:23:01+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0032s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-08-24T17:23:21+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0033s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = '视频' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Com\Wechat::replyVideo(), called in I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php on line 138 and defined I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 220 行.
+NOTIC: [2] Missing argument 3 for Com\Wechat::replyVideo(), called in I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php on line 138 and defined I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 220 行.
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+NOTIC: [8] Undefined offset: 2 I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 363 行.
+NOTIC: [8] Undefined offset: 1 I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 363 行.
+
+[ 2015-08-24T17:24:23+08:00 ] 192.168.2.105 /index.php/weixin/index/api?signature=ebd20ed7b717005d6492855f746cdd7b9175fdb1&echostr=1423305850704559071&timestamp=1440408284&nonce=132485727
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+
+[ 2015-08-24T17:25:19+08:00 ] 192.168.2.105 /index.php/weixin/index/api?signature=a8840f154cbe8cc9111cfc70bb3cfd1b49161910&timestamp=1440408342&nonce=1976491429
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001529s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0036s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = '视频' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Com\Wechat::replyVideo(), called in I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php on line 138 and defined I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 220 行.
+NOTIC: [2] Missing argument 3 for Com\Wechat::replyVideo(), called in I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php on line 138 and defined I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 220 行.
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+NOTIC: [8] Undefined offset: 2 I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 363 行.
+NOTIC: [8] Undefined offset: 1 I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 363 行.
+
+[ 2015-08-24T17:25:38+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0035s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = '视频' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Com\Wechat::replyVideo(), called in I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php on line 138 and defined I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 220 行.
+NOTIC: [2] Missing argument 3 for Com\Wechat::replyVideo(), called in I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php on line 138 and defined I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 220 行.
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+NOTIC: [8] Undefined offset: 2 I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 363 行.
+NOTIC: [8] Undefined offset: 1 I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 363 行.
+
+[ 2015-08-24T17:26:31+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0031s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T17:26:37+08:00 ] 192.168.2.105 /index.php/weixin/index/api?signature=d3546b7007476cad08b0bc87561864ea48547438&timestamp=1440408420&nonce=565667472
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0038s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T17:27:18+08:00 ] 192.168.2.105 /index.php/weixin/index/api?signature=634ea05b28f9e79a81d7662096fe7dd01af5b91e&timestamp=1440408461&nonce=1370042889
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0032s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T17:27:28+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0038s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T17:27:43+08:00 ] 192.168.2.105 /index.php/weixin/index/api?signature=3ba93f35c0eab2256b8ca48cc68be765e7fe51b7&timestamp=1440408486&nonce=44273755
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0031s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T17:36:39+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002080s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0070s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'sadsa' AND `show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T17:36:54+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0032s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = '视频' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 2 for Com\Wechat::replyVideo(), called in I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php on line 139 and defined I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 220 行.
+NOTIC: [2] Missing argument 3 for Com\Wechat::replyVideo(), called in I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php on line 139 and defined I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 220 行.
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+NOTIC: [8] Undefined offset: 2 I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 363 行.
+NOTIC: [8] Undefined offset: 1 I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 363 行.
+
+[ 2015-08-24T17:39:45+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0038s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-08-24T17:41:03+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001400s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0036s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = '视频' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Com\Wechat::replyVideo(), called in I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php on line 240 and defined I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 220 行.
+NOTIC: [2] Missing argument 3 for Com\Wechat::replyVideo(), called in I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php on line 240 and defined I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 220 行.
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+NOTIC: [8] Undefined offset: 2 I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 363 行.
+NOTIC: [8] Undefined offset: 1 I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 363 行.
+
+[ 2015-08-24T17:41:13+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001219s ]
+NOTIC: [8] Undefined index: timestamp I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 315 行.
+NOTIC: [8] Undefined index: nonce I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 315 行.
+NOTIC: [8] Undefined index: signature I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 316 行.
+
+[ 2015-08-24T17:41:16+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0040s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Com\Wechat::replyNews(), called in I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php on line 252 and defined I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 244 行.
+NOTIC: [2] Missing argument 3 for Com\Wechat::replyNews(), called in I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php on line 252 and defined I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 244 行.
+NOTIC: [2] Missing argument 4 for Com\Wechat::replyNews(), called in I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php on line 252 and defined I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 244 行.
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T17:44:34+08:00 ] 192.168.2.105 /index.php/weixin/index/api?signature=0db2151496be5cd74f2a9595dab0f7b0f90dbf42&timestamp=1440409497&nonce=304922901
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001590s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0036s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Com\Wechat::replyNews(), called in I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php on line 252 and defined I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 244 行.
+NOTIC: [2] Missing argument 3 for Com\Wechat::replyNews(), called in I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php on line 252 and defined I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 244 行.
+NOTIC: [2] Missing argument 4 for Com\Wechat::replyNews(), called in I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php on line 252 and defined I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 244 行.
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T17:44:43+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0032s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Com\Wechat::replyNews(), called in I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php on line 252 and defined I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 244 行.
+NOTIC: [2] Missing argument 3 for Com\Wechat::replyNews(), called in I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php on line 252 and defined I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 244 行.
+NOTIC: [2] Missing argument 4 for Com\Wechat::replyNews(), called in I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php on line 252 and defined I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 244 行.
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T17:46:10+08:00 ] 192.168.2.105 /index.php/weixin/index/api?signature=63b2786062df0ae5a937d36b35aa1acb079353ca&timestamp=1440409593&nonce=348564024
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001284s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0036s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Com\Wechat::replyNews(), called in I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php on line 253 and defined I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 244 行.
+NOTIC: [2] Missing argument 3 for Com\Wechat::replyNews(), called in I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php on line 253 and defined I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 244 行.
+NOTIC: [2] Missing argument 4 for Com\Wechat::replyNews(), called in I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php on line 253 and defined I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 244 行.
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T17:46:44+08:00 ] 192.168.2.105 /index.php/weixin/index/api?signature=3a4c74fe866784a18d331c9853b4a3f829e3aefc&timestamp=1440409627&nonce=1108849873
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0031s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 4 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Undefined offset: 5 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Undefined offset: 6 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Undefined offset: 7 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T17:47:32+08:00 ] 192.168.2.105 /index.php/weixin/index/api?signature=e0996038195b5f75026b63fbd3d61e98b1cd3107&timestamp=1440409676&nonce=1377572857
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001315s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0036s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 4 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Undefined offset: 5 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T17:47:57+08:00 ] 192.168.2.105 /index.php/weixin/index/api?signature=1dcfe45becf5fe6c9a26ceb1602a6f8da2d18898&timestamp=1440409701&nonce=1156685886
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0037s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 4 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Undefined offset: 5 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Undefined offset: 6 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Undefined offset: 7 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T17:51:23+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001384s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0039s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 4 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Undefined offset: 5 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Undefined offset: 6 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Undefined offset: 7 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T17:51:38+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001546s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0033s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 4 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Undefined offset: 5 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Undefined offset: 6 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Undefined offset: 7 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T17:55:53+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0033s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 4 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Undefined offset: 5 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Undefined offset: 6 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Undefined offset: 7 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T17:56:14+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0034s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 4 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Undefined offset: 5 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Undefined offset: 6 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Undefined offset: 7 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T17:56:37+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0033s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 4 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Undefined offset: 5 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Undefined offset: 6 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Undefined offset: 7 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T17:58:45+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0042s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 4 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Undefined offset: 5 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Undefined offset: 6 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Undefined offset: 7 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T18:00:50+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0032s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 4 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Undefined offset: 5 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Undefined offset: 6 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Undefined offset: 7 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+
+[ 2015-08-24T18:01:55+08:00 ] 192.168.2.105 /index.php/weixin/index/api?signature=61074ca3f9a73183a2a301344d834256a7da592f&timestamp=1440410538&nonce=1133937980
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0031s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 4 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Undefined offset: 5 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Undefined offset: 6 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Undefined offset: 7 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T18:02:19+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0032s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 4 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Undefined offset: 5 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Undefined offset: 6 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Undefined offset: 7 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T18:02:59+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0034s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 4 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Undefined offset: 5 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Undefined offset: 6 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Undefined offset: 7 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 253 行.
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T18:03:20+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0032s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-24T18:03:49+08:00 ] 192.168.2.105 /index.php/weixin/index/api?signature=4a37f869e25151036393ad21e46895215788fb28&timestamp=1440410652&nonce=1869392691
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0032s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T18:04:05+08:00 ] 192.168.2.105 /index.php/weixin/index/api?signature=d72614221dcfe7a70b847f8964222fea1fbd56fa&timestamp=1440410668&nonce=494009025
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0036s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-08-24T18:04:15+08:00 ] 192.168.2.105 /index.php/weixin/index/api?signature=fcfa519bdcc1f0efe4a91cab015847a1cf0234af&timestamp=1440410678&nonce=276326254
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0037s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 4 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 254 行.
+NOTIC: [8] Undefined offset: 5 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 254 行.
+NOTIC: [8] Undefined offset: 6 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 254 行.
+NOTIC: [8] Undefined offset: 7 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 254 行.
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T18:04:33+08:00 ] 192.168.2.105 /index.php/weixin/index/api?signature=b773a40a21b881ae973bac71099ac9c5fd5691c8&timestamp=1440410696&nonce=237458960
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001361s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0033s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 5 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 6 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 7 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 255 行.
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T18:05:03+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001231s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0036s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 5 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 6 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 7 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 255 行.
+
+[ 2015-08-24T18:05:15+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0035s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 4 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 5 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 6 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 7 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 255 行.
+
+[ 2015-08-24T18:06:08+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0035s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 4 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 5 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 6 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 7 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 255 行.
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T18:06:41+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0037s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 4 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 5 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 6 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 7 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 255 行.
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T18:06:51+08:00 ] 192.168.2.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0032s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 4 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 5 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 6 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 7 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 255 行.
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T18:07:07+08:00 ] 192.168.2.105 /index.php/weixin/index/api?signature=a10f4b1c0843b291acc7ef30ce1b2160ebbdfcd6&timestamp=1440410850&nonce=1054078936
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000982s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001514s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0035s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 4 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 5 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 6 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 7 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 255 行.
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T22:33:04+08:00 ] 192.168.0.105 /index.php/weixin/index/api?signature=9abb571cf4cbd6704c6a6b30876af8f9e5361963&timestamp=1440426806&nonce=1785915168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0517s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0484s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'zn.aifly.net' LIMIT 1   [ RunTime:0.0149s ]
+
+[ 2015-08-24T22:43:58+08:00 ] 192.168.0.105 /index.php/weixin/index/api?signature=cfa0fbf93b032ff7805fbe65d5a8b221c668b220&timestamp=1440427461&nonce=1602568567
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0050s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'zn.aifly.net' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T22:46:57+08:00 ] 192.168.0.105 /index.php/weixin/index/api.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+ERR: 非法操作:api.htm
+
+[ 2015-08-24T22:47:24+08:00 ] 192.168.0.105 /index.php/weixin/index/api.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+ERR: 非法操作:api.htm
+
+[ 2015-08-24T22:48:31+08:00 ] 192.168.0.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0039s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'asds' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T22:49:10+08:00 ] 192.168.0.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0043s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'asds' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T22:49:16+08:00 ] 192.168.0.105 /index.php/weixin/index/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0049s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'asds' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-24T22:49:36+08:00 ] 192.168.0.105 /index.php/weixin/index/api.html?signature=8f451d7c25082971dd87f2ddc3039813b70f7f46&echostr=5659982469575716695&timestamp=1440427798&nonce=1402537881
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001450s ]
+
+[ 2015-08-24T22:49:44+08:00 ] 192.168.0.105 /index.php/weixin/index/api.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001535s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0045s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'asds' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-24T23:07:14+08:00 ] 192.168.0.105 /index.php/weixin/index/api.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+
+[ 2015-08-24T23:07:32+08:00 ] 192.168.0.105 /index.php/weixin/index/api.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0040s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'asds' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_message` [ RunTime:0.0052s ]
+SQL: INSERT INTO `wp_wexinacc_message` (`wechat_token`,`json`) VALUES ('gh_9b97a51160aa','\"gh_9b97a51160aa\"') [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T23:07:53+08:00 ] 192.168.0.105 /index.php/weixin/index/api.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001209s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0043s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'asds' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_message` [ RunTime:0.0039s ]
+SQL: INSERT INTO `wp_wexinacc_message` (`wechat_token`,`json`) VALUES ('gh_9b97a51160aa','{\"URL\":\"http:\\/\\/cc345340585.wicp.net\\/index.php\\/weixin\\/index\\/api.html\",\"ToUserName\":\"gh_9b97a51160aa\",\"FromUserName\":\"aaaa\",\"CreateTime\":\"13333333333\",\"MsgType\":\"text\",\"Content\":\"asds\",\"MsgId\":\"21312\"}') [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T23:08:40+08:00 ] 192.168.0.105 /index.php/weixin/index/api.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001541s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0049s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'asds' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_message` [ RunTime:0.0039s ]
+SQL: INSERT INTO `wp_wexinacc_message` (`wechat_token`,`json`,`create_time`) VALUES ('gh_9b97a51160aa','{\"URL\":\"http:\\/\\/cc345340585.wicp.net\\/index.php\\/weixin\\/index\\/api.html\",\"ToUserName\":\"gh_9b97a51160aa\",\"FromUserName\":\"aaaa\",\"CreateTime\":\"13333333333\",\"MsgType\":\"text\",\"Content\":\"asds\",\"MsgId\":\"21312\"}','1440428920') [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T23:33:04+08:00 ] 192.168.0.105 /index.php/weixin/index/api.html?signature=bfe05df7ce63ef0d4cba09eff3de2ab2b0ab5ae4&timestamp=1440430406&nonce=487554893
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001528s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0040s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = '测试' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_message` [ RunTime:0.0036s ]
+SQL: INSERT INTO `wp_wexinacc_message` (`openid`,`wechat`,`json`,`create_time`) VALUES ('oCroCs2PEmdn0nvm9WLyuaCPQcVY','gh_9b97a51160aa','{\"ToUserName\":\"gh_9b97a51160aa\",\"FromUserName\":\"oCroCs2PEmdn0nvm9WLyuaCPQcVY\",\"CreateTime\":\"1440430406\",\"MsgType\":\"text\",\"Content\":\"\\u6d4b\\u8bd5\",\"MsgId\":\"6186601486142502082\"}','1440430384') [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T23:36:33+08:00 ] 192.168.0.105 /index.php/weixin/index/api.html?signature=abdb2eec0ae4b7af436e0538727477ebdcbdd438&timestamp=1440430615&nonce=2013551638
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0039s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-24T23:36:37+08:00 ] 192.168.0.105 /index.php/weixin/index/api.html?signature=922ab2ea442b6d5717400ee368c100f803700175&timestamp=1440430619&nonce=167731986
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0045s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_user` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_wexinacc_user` WHERE `openid` = 'oCroCs2PEmdn0nvm9WLyuaCPQcVY' AND `wechat` = 'gh_9b97a51160aa' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Argument must be an array I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 163 行.
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T23:36:40+08:00 ] 192.168.0.105 /index.php/weixin/index/api.html?signature=14189108aeee4c0dda2df5f5403d07417e4962dc&timestamp=1440430623&nonce=886053027
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0040s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'LOCATION' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_message` [ RunTime:0.0036s ]
+SQL: INSERT INTO `wp_wexinacc_message` (`openid`,`wechat`,`json`,`create_time`) VALUES ('oCroCs2PEmdn0nvm9WLyuaCPQcVY','gh_9b97a51160aa','{\"ToUserName\":\"gh_9b97a51160aa\",\"FromUserName\":\"oCroCs2PEmdn0nvm9WLyuaCPQcVY\",\"CreateTime\":\"1440430623\",\"MsgType\":\"event\",\"Event\":\"LOCATION\",\"Latitude\":\"30.343454\",\"Longitude\":\"112.232445\",\"Precision\":\"40.000000\",\"Content\":\"LOCATION\"}','1440430600') [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T23:37:01+08:00 ] 192.168.0.105 /index.php/weixin/index/api.html?signature=9118be2e00b3cc8b21c2574b337002739b061d1b&timestamp=1440430644&nonce=1804045774
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001502s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0049s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'LOCATION' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_message` [ RunTime:0.0036s ]
+SQL: INSERT INTO `wp_wexinacc_message` (`openid`,`wechat`,`json`,`create_time`) VALUES ('oCroCs2PEmdn0nvm9WLyuaCPQcVY','gh_9b97a51160aa','{\"ToUserName\":\"gh_9b97a51160aa\",\"FromUserName\":\"oCroCs2PEmdn0nvm9WLyuaCPQcVY\",\"CreateTime\":\"1440430644\",\"MsgType\":\"event\",\"Event\":\"LOCATION\",\"Latitude\":\"30.343454\",\"Longitude\":\"112.232445\",\"Precision\":\"40.000000\",\"Content\":\"LOCATION\"}','1440430621') [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T23:37:08+08:00 ] 192.168.0.105 /index.php/weixin/index/api.html?signature=eca2e3d2d5f777b99bcea4a6b6f8c974d7d0d54a&timestamp=1440430651&nonce=1512668365
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001343s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0039s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'LOCATION' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_message` [ RunTime:0.0038s ]
+SQL: INSERT INTO `wp_wexinacc_message` (`openid`,`wechat`,`json`,`create_time`) VALUES ('oCroCs2PEmdn0nvm9WLyuaCPQcVY','gh_9b97a51160aa','{\"ToUserName\":\"gh_9b97a51160aa\",\"FromUserName\":\"oCroCs2PEmdn0nvm9WLyuaCPQcVY\",\"CreateTime\":\"1440430651\",\"MsgType\":\"event\",\"Event\":\"LOCATION\",\"Latitude\":\"30.343504\",\"Longitude\":\"112.232491\",\"Precision\":\"70.000000\",\"Content\":\"LOCATION\"}','1440430628') [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T23:37:19+08:00 ] 192.168.0.105 /index.php/weixin/index/api.html?signature=52c79a7c522e338839cd2ad2d17fd335fb84635c&timestamp=1440430661&nonce=1972445324
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001315s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0057s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-08-24T23:38:04+08:00 ] 192.168.0.105 /index.php/weixin/index/api.html?signature=613865758c5afb5f5143fe7be67967ecde588573&timestamp=1440430707&nonce=1325610381
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001743s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0038s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T23:38:54+08:00 ] 192.168.0.105 /index.php/weixin/index/api.html?signature=d34a3522e3d321ab680d3997d54c1a1db26e8e2f&timestamp=1440430757&nonce=179966083
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0053s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-08-24T23:38:57+08:00 ] 192.168.0.105 /index.php/weixin/index/api.html?signature=94c9734a0331a628db6e4628974b65bbee3a6587&timestamp=1440430760&nonce=1736124923
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001587s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0041s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T23:39:01+08:00 ] 192.168.0.105 /index.php/weixin/index/api.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002028s ]
+NOTIC: [8] Undefined index: timestamp I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 321 行.
+NOTIC: [8] Undefined index: nonce I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 321 行.
+NOTIC: [8] Undefined index: signature I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 322 行.
+
+[ 2015-08-24T23:39:57+08:00 ] 192.168.0.105 /index.php/weixin/index/api.html?signature=2f0c6fd44dabdc998fc1d2197846eba226fecd41&timestamp=1440430820&nonce=1417214078
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0044s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-24T23:40:02+08:00 ] 192.168.0.105 /index.php/weixin/index/api.html?signature=9945e09f78c60ca83fe3ceacef7da706b9feccde&timestamp=1440430825&nonce=236498731
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002338s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0044s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_user` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_wexinacc_user` WHERE `openid` = 'oCroCs2PEmdn0nvm9WLyuaCPQcVY' AND `wechat` = 'gh_9b97a51160aa' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T23:40:43+08:00 ] 192.168.0.105 /index.php/weixin/index/api.html?signature=bdc1d96dea311f9969df0f09e3254848184a8c7a&timestamp=1440430866&nonce=714210985
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002520s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0041s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-24T23:40:47+08:00 ] 192.168.0.105 /index.php/weixin/index/api.html?signature=83f3bad4a4782e956749ba2a1fb9b1c9fe40f060&timestamp=1440430870&nonce=1502865911
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0058s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_user` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_wexinacc_user` WHERE `openid` = 'oCroCs2PEmdn0nvm9WLyuaCPQcVY' AND `wechat` = 'gh_9b97a51160aa' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T23:41:31+08:00 ] 192.168.0.105 /index.php/weixin/index/api.html?signature=aed8488ea3f9a60f8bf0a84dd841a05c90b307aa&timestamp=1440430913&nonce=132110076
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002706s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0057s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-08-24T23:42:01+08:00 ] 192.168.0.105 /index.php/weixin/index/api.html?signature=9a65e84e3ea4eebcf34c486b83d415ad9b567948&timestamp=1440430944&nonce=998830605
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001580s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0071s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_user` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_wexinacc_user` WHERE `openid` = 'oCroCs2PEmdn0nvm9WLyuaCPQcVY' AND `wechat` = 'gh_9b97a51160aa' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `wp_wexinacc_user` (`openid`,`wechat`,`md5hash`,`create_time`) VALUES ('oCroCs2PEmdn0nvm9WLyuaCPQcVY','gh_9b97a51160aa','4e5cdbe6672960666c77a8b13db2935e','1440430921') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 4 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [8] Undefined offset: 5 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [8] Undefined offset: 6 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [8] Undefined offset: 7 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T23:42:40+08:00 ] 192.168.0.105 /index.php/weixin/index/api.html?signature=8d6212a5d80298a77d61f62c5059886be91eac1d&timestamp=1440430983&nonce=596078836
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0039s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-24T23:42:43+08:00 ] 192.168.0.105 /index.php/weixin/index/api.html?signature=603ca1aea22fcb48b6fa0b6ca909e4668b418991&timestamp=1440430986&nonce=516174861
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0041s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_user` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_wexinacc_user` WHERE `openid` = 'oCroCs2PEmdn0nvm9WLyuaCPQcVY' AND `wechat` = 'gh_9b97a51160aa' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T23:46:25+08:00 ] 192.168.0.105 /index.php/weixin/index/api.html?signature=08f8f621574ae0e7d919bb6c0b14667e8db4daea&timestamp=1440431208&nonce=1833812208
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001494s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0037s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-24T23:46:29+08:00 ] 192.168.0.105 /index.php/weixin/index/api.html?signature=d0e9b0f8df8a1f661349f2c07d086d78338c0a3d&timestamp=1440431211&nonce=1263298274
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0041s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_user` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_wexinacc_user` WHERE `openid` = 'oCroCs2PEmdn0nvm9WLyuaCPQcVY' AND `wechat` = 'gh_9b97a51160aa' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe_error' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T23:47:13+08:00 ] 192.168.0.105 /index.php/weixin/index/api.html?signature=10b06607dacc28564fcf8ef05265f32b4143d97d&timestamp=1440431256&nonce=474313042
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0037s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_user` [ RunTime:0.0035s ]
+SQL: DELETE FROM `wp_wexinacc_user` WHERE `openid` = 'oCroCs2PEmdn0nvm9WLyuaCPQcVY' AND `wechat` = 'gh_9b97a51160aa' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'unsubscribe' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_message` [ RunTime:0.0041s ]
+SQL: INSERT INTO `wp_wexinacc_message` (`openid`,`wechat`,`json`,`create_time`) VALUES ('oCroCs2PEmdn0nvm9WLyuaCPQcVY','gh_9b97a51160aa','{\"ToUserName\":\"gh_9b97a51160aa\",\"FromUserName\":\"oCroCs2PEmdn0nvm9WLyuaCPQcVY\",\"CreateTime\":\"1440431256\",\"MsgType\":\"event\",\"Event\":\"unsubscribe\",\"EventKey\":\"\",\"Content\":\"unsubscribe\"}','1440431233') [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+
+[ 2015-08-24T23:47:26+08:00 ] 192.168.0.105 /index.php/weixin/index/api.html?signature=5c86f70a136ad08671fbabb352e1e4d48a331cce&timestamp=1440431269&nonce=139994839
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc` [ RunTime:0.0044s ]
+SQL: SELECT `appid`,`secret`,`type` FROM `wp_wexinacc` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_user` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_wexinacc_user` WHERE `openid` = 'oCroCs2PEmdn0nvm9WLyuaCPQcVY' AND `wechat` = 'gh_9b97a51160aa' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `wp_wexinacc_user` (`openid`,`wechat`,`md5hash`,`create_time`) VALUES ('oCroCs2PEmdn0nvm9WLyuaCPQcVY','gh_9b97a51160aa','8c1124d131f54c28bcd5e8f8606984ab','1440431246') [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wp_wexinacc_reply` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `wp_wexinacc_reply` WHERE `wechat` = 'gh_9b97a51160aa' AND `show` = 1 AND `text` = 'subscribe' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 4 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [8] Undefined offset: 5 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [8] Undefined offset: 6 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [8] Undefined offset: 7 I:\web\meijialz\Application\Weixin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [8] Use of undefined constant self - assumed 'self' I:\web\meijialz\ThinkPHP\Library\Com\Wechat.class.php 第 172 行.
+

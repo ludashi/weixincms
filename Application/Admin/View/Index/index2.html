@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Login PHP</title>
+	<link rel="stylesheet" href="__PUBLIC__/style1/admin/style.css" />
+	<script type="text/javascript" src="__PUBLIC__/js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/dreamofme-ajax-1.0.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/jquery.form.js"></script>
+	
+	<script type="text/javascript">	
+	$(document).ready(function(){
+		//DreamAjax.confirm('123','123','query,cancel',function(){alert(1)});
+		//DreamAjax.alert('sadasd','tests','cancel');
+		//DreamAjax.loadstart();
+		//DreamAjax.loadend();
+		//DreamAjax.loaderror('加载失败');
+		DreamAjax.panelform('form-panel-box');
+		DreamAjax.ajaxform('form-box');
+		var listbox = DreamAjax.listbox('list-box');
+		DreamAjax.loadstart();
+		$.get('http://www.jlxj.com/index.php/Admin/index/testcode.html',function(dataObj){
+			listbox.clear();
+			listbox.addLists(dataObj.keys,dataObj.values);
+			console.log(dataObj);	
+			DreamAjax.loadend();
+		});		
+	});	
+	</script>
+</head>
+<body>
+	<div url='/index.php/Admin/index/testcode' class="box" role="list-box">		
+		<table role="lists">
+		<tr items="rowspan">
+			<th items="colspan-title">
+		
+			</th>	
+			<td items="colspan-element">
+				
+			</td>
+			
+		</tr>
+		<tr items="error">
+			<td items="text">
+		
+			</td>			
+		</tr>
+		</table>
+		<div items="pager"></div>	
+	</div>
+	<div class="box" role="load-box">		
+		<div>
+			正在加载中
+		</div>
+	</div>
+	<div class="box" role="form-panel-box">
+		<form action="http://www.jlxj.com/index.php/Admin/index/tests.html" role='data-form' method="post">
+			<input name="ff"/>
+			<input name="dd"/>
+			<input type="file" name="f"/>
+		
+		
+		<div data-group="alert-btn">
+			<button type="submit" btn-group="submit">提交</button>
+			<button btn-group="query">确认</button>
+			<button btn-group="cancel">取消</button>
+		</div>
+		</form>
+	</div>
+	<div class="box" role="form-box">
+		<form action="http://www.jlxj.com/index.php/Admin/index/tests.html" role='data-form' method="post">
+			<input name="ff"/>
+			<input name="dd"/>
+			<input type="file" name="f"/>
+		
+		
+		<div data-group="alert-btn">
+			<button type="submit" btn-group="submit">提交</button>
+			<button btn-group="query">确认</button>
+			<button btn-group="cancel">取消</button>
+		</div>
+		</form>
+	</div>
+	
+	<div class="box-alert" role="alert-box">		
+		
+		<div data-group="title">
+			标题
+		</div>
+		<div data-group="text">
+			内容
+		</div>
+		<div data-group="alert-btn">
+			<button btn-group="submit">提交</button>
+			<button btn-group="query">确认</button>
+			<button btn-group="cancel">取消</button>
+		</div>
+
+	</div>
+	
+</body>
+</html>

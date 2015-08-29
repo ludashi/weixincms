@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimal-ui">
+    <!--
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    -->
+    <meta name="format-detection"content="telephone=no, email=no">
+    <title>CET四六级</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="http://7xlb4q.com1.z0.glb.clouddn.com/css/h-style.css">
+    <script src="http://7xlb4q.com1.z0.glb.clouddn.com/js/jquery-1.11.1.min.js"></script>
+    <script src="http://7xlb4q.com1.z0.glb.clouddn.com/js/hs_main.js"></script>
+    <script src="http://7xlb4q.com1.z0.glb.clouddn.com/js/tab.js"></script>
+
+</head>
+<body>
+
+<div class="enter-register-content2">
+    <a class="return" href="javascript:history.back()"></a>
+    <div class="tab-box" id="tabbox">
+        <ul class="t-l" id="tabs">
+            <li class="on"><a href=""  tab="tab1">预约四六级</a></li>
+            <li class="last"><a href=""  tab="tab2">绑定准考证</a></li>
+        </ul>
+    </div>
+
+    <!--单选项样式js-->
+    <script>
+        $(function() {
+            $('label').click(function(){
+                var radioId = $(this).attr('name');
+                $('label').removeAttr('class') && $(this).attr('class', 'checked');
+                $('input[type="radio"]').removeAttr('checked') && $('#' + radioId).attr('checked', 'checked');
+            });
+        });
+    </script>
+    <!--单选项样式js结束-->
+    <div class="content-box" id="tab1">
+       <form method="post" action="http://yucte.yangtzeu.edu.cn/gxlq.asp">
+        <div class="enter-box item-box">
+            <div class="inner2">
+                <label><input name="Fruit" type="radio" value="" />CET四级 </label>
+                <label><input name="Fruit" type="radio" value="" />CET六级 </label>
+            </div>
+            <button type="submit" class="enterBtn">预  约 报 名</button>
+        </div>
+       </form>
+    </div>
+    <div class="content-box" id="tab2">
+        <form method="post" action="http://yucte.yangtzeu.edu.cn/gxlq.asp">
+            <div class="enter-box item-box">
+                <div class="inner">
+                    <div class="pwd-box"><span class="c-t">CET准考证号</span><input type="text" class="pwd" name=""></div>
+                </div>
+                <button type="submit" class="enterBtn">绑  定</button>
+            </div>
+        </form>
+    </div>
+    <div class="other-enter">
+        <div class="line"></div>
+        <p class="title">提示信息</p>
+    </div>
+    <div class="other-link">
+        <ul class="info">
+            <li>【CET四六级考试预约说明】<p>提前在本页面预约下一次的CET四六级考试，到了报名开发那天，系统会自动为您报名，以免错过报名时间。</p></li>
+            <li>【绑定准考证功能说明】<p>提前在本页面绑定您的CET四六级准考证号，成绩下来那天，本公众号会自动把四六级成绩发送给你。</p></li>
+        </ul>
+    </div>
+</div>
+
+
+</body>
+</html>

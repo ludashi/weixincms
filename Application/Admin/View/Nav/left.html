@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <include file="Public/head" /> 
+</head>
+<body>
+	<div class="left-nav">
+	<div class="dh">
+		<p class="text"><i class="fa fa-user"></i> 
+   <a href="{:U('content/gets',array('panel'=>'myinfo'))}" target="lower_right">管理员：{$username}</a> &nbsp;
+   <a target="_parent" href="{:U('user/logout')}"><i class="fa fa-power-off"></i> 退出</a></p>
+	</div>
+<ul class="" role="tablist" id="myTab">
+  <foreach name="navs" item="nav" >
+  <li role="presentation"><a href="{:U($nav['u1'],json_decode($nav['u2'],true))}" target="lower_right"  ><img src="{$nav.face}" alt="" width="25" height="25"> {$nav.name}</a></li>
+  </foreach>
+</ul>
+   <div class="footer">
+   <p> 2015 © 江陵巡警版权所有</p>
+ 
+   </div>
+  </div>
+ <script>
+$(document).ready(function(){
+ $('li[role="presentation"]').click(function(){	
+	$('li[role="presentation"]').attr('class','');
+	$(this).attr('class','active');
+ });
+});
+ 
+ </script>
+</body>
+</html>

@@ -1,0 +1,313 @@
+@charset "utf-8";
+/* base common style */      
+html,body{padding:0; margin:0;}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin: 0; padding: 0 }
+body, button, input, select, textarea { font: 12px/1.5 "Microsoft YaHei", 微软雅黑,\9ed1\4f53,\5b8b\4f53, "Microsoft JhengHei", 华文细黑, STHeiti, MingLiu; color:#666 }
+h1, h2, h3, h4, h5, h6 { font-size: 100% }
+address, cite, dfn, em, var { font-style: normal }
+ul, ol, dl { list-style: none }
+a { text-decoration: none !important; outline: none ;font-family:"Microsoft YaHei", 微软雅黑,\9ed1\4f53,\5b8b\4f53, "Microsoft JhengHei", 华文细黑, STHeiti, MingLiu;cursor: pointer;}
+img { border: 0 }
+button, input, select, textarea { font-size: 100% ;font-family:"Microsoft YaHei", 微软雅黑,\9ed1\4f53,\5b8b\4f53, "Microsoft JhengHei", 华文细黑, STHeiti, MingLiu;outline: none;}
+table { border-collapse: collapse; border-spacing: 0 }
+.clear{*zoom:1;}
+.clear:after{display:block;clear:both;content:"\0020";visibility:hidden;height:0;}
+.cl:before{content: ''; display: table;}
+.cl:after{content: ''; display: table; clear: both}
+.global_wrap{position: relative;min-height:100%; clear: both; content: ""; }
+.ielt7 .global_wrap{height:100%; }
+#clsIframe,#LR_Flash{position: absolute;}
+.col_l{float: left;*display: inline;}
+.col_r{float: right;*display: inline;}
+.ect{text-overflow:ellipsis; overflow: hidden; white-space: nowrap;}
+/* common bg */
+
+.zxbj-calc-wrap .zxbj-content .tips i,
+.zxbj-calc-wrap .zxbj-content .element .submit-btn span, .ico_error{background:url(http://img.to8to.com/to8to_img/global.png?v=201507311549) no-repeat;_background:url(http://img.to8to.com/to8to_img/global.gif?v=201507311549) no-repeat ;_overflow:hidden;}
+.ico_error{ display: inline-block; width: 13px;height: 13px;background-position: -51px -165px;margin-right: 5px;vertical-align: middle;}
+/*装修报价计算器*/
+body {
+    text-align: center;
+    margin: 0 auto;
+}
+.zxbj-calc-wrap {
+    width: 244px;
+    background-color: #464857;
+    border: 1px solid #e8e8e8;
+}
+.zxbj-calc-wrap .top-img {
+    display: none;
+}
+.zxbj-calc-wrap .top-img img {
+    vertical-align: top;
+}
+
+.zxbj-calc-wrap .wrap-top{
+    width: 213px;
+    margin: 0 auto;
+}
+.zxbj-calc-wrap .wrap-top {
+    padding-top: 18px;
+}
+.zxbj-calc-wrap .tab-nav {
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+}
+.zxbj-calc-wrap .tab-nav a {
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding: 9px 0;
+    font-size: 14px;
+    color: #333;
+    background-color: #f8f8f8; 
+    border-bottom: 1px solid #f8f8f8;
+}
+.zxbj-calc-wrap .tab-nav a.on {
+    border-bottom: 1px solid #e8e8e8;
+    font-weight: bold;
+    color: #fff;
+    background-color: #464857;
+}
+.zxbj-calc-wrap .zxbj-content {
+    text-align: left;
+}
+.zxbj-calc-wrap .zxbj-content .desc {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold; 
+    color: #f26f20;
+}
+.zxbj-calc-wrap.zxbj-calc-type2 .wrap-top p {
+    font-size: 21px;
+    color: #f25618;
+}
+.zxbj-calc-wrap.zxbj-calc-type2 .zxbj-content .element .submit-btn {
+    background-color: #f25618;
+    font-size: 15px;
+    font-weight: bold;
+}
+.zxbj-calc-wrap .wrap-top p {
+    padding-top: 13px;
+    font-size: 16px;
+    color: #f26f20;
+    display: none;
+}
+.zxbj-calc-wrap .zxbj-content {
+    padding-bottom: 14px;
+    width: 213px;
+    height: 218px;
+    margin: 16px auto 0 auto;
+    color: #fff;
+    display: none;
+    position: relative;
+}
+.zxbj-calc-wrap .zxbj .zxbj-content.step3 .tips{
+  padding-left: 18px;
+  text-align: justify;
+}
+.zxbj-calc-wrap .zxbj .zxbj-content.step4 {
+  margin-top: 46px;
+}
+.zxbj-calc-wrap .zxbj .zxbj-content.step4 .tips{
+  padding-right: 11px;
+  text-align: justify;
+}
+.zxbj-calc-wrap .zxbj-content .element {
+    position: relative;
+    margin-top: 16px;
+    overflow: hidden;
+    width: 100%;
+}
+.zxbj-calc-wrap .zxbj .zxbj-content.step4 .element {
+    position: absolute;
+    left: 0;
+    bottom: 28px;
+}
+.zxbj-calc-wrap .zxbj .zxbj-content.step4 .element {
+    bottom: 12px\9;
+}
+.zxbj-calc-wrap .zxbj-content .element.height_auto {
+    margin-bottom: -18px;
+}
+.zxbj-calc-wrap .zxbj-content .element em {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    color: #999;
+}
+.zxbj-calc-wrap .zxbj-content .element .unit {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    font-style: normal;
+    color: #666;
+}
+.zxbj-calc-wrap .zxbj-content .text {
+    display: block;
+    border: 1px solid #ccc;
+    padding: 8px;
+    width: 213px;
+    _height: 36px;
+}
+/*.zxbj-calc-wrap .zxbj .zxbj-content.step1 {
+    *margin-top: 0;
+}*/
+.zxbj-calc-wrap .zxbj-content .element select {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 8px;
+    width: 47%
+}
+.zxbj-calc-wrap .jcxj .zxbj-content.step1 select {
+    display: inline-block;
+    width: 52px;
+}
+.zxbj-calc-wrap .zxbj-content .element select.province {
+    float: left;
+}
+.zxbj-calc-wrap .zxbj-content .element select.city {
+    float: right;
+}
+.zxbj-calc-wrap .zxbj-content .element label {
+    display: inline-block;
+    margin-right: 41px;
+    *margin-right: 28px;
+}
+.zxbj-calc-wrap .jcxj .zxbj-content.step1 label {
+    margin-right: 22px;
+    *margin-right: 11px;
+}
+.zxbj-calc-wrap .zxbj-content .element label.last,
+.zxbj-calc-wrap .jcxj .zxbj-content.step1 label.last {
+    margin-right: 0;
+}
+.zxbj-calc-wrap .zxbj-content .element label input[type="radio"] {
+    vertical-align: middle;
+    margin-top: -2px;
+}
+.zxbj-calc-wrap .zxbj-content .element .submit-btn {
+    display: block;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    border: 0;
+    background-color: #f26f20;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+.zxbj-calc-wrap .zxbj-content .tips {
+    position: relative;
+    padding-left: 20px;
+    padding-top: 4px;
+    _width: 213px;
+}
+.zxbj-calc-wrap .jcxj .zxbj-content.step3 .tips {
+    padding-top: 47px;
+    padding-bottom: 22px;
+}
+.zxbj-calc-wrap .zxbj-content .tips i {
+    position: absolute;
+    left: 0;
+    top: 7px;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-position: -250px -203px;
+}
+.zxbj-calc-wrap .jcxj .zxbj-content.step3 .tips i {
+    top: 50px;
+}
+.zxbj-calc-wrap .zxbj-content .element .submit-btn span {
+    margin-right: 8px;
+    margin-top: -3px;
+    vertical-align: middle;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-position: -237px -255px;
+    _margin-top: 10px;
+    _vertical-align: baseline;
+}
+.zxbj-calc-wrap .jcxj .zxbj-content.step3 .tips i,
+.zxbj-calc-wrap .zxbj .zxbj-content.step4 .tips i,
+.zxbj-calc-wrap .zxbj .zxbj-content.step5 .tips i
+.zxbj-calc-wrap .zxbj .zxbj-content.step6 .tips i {
+    background-position: -265px -203px;
+}
+.zxbj-calc-wrap .zxbj-content .text.yzm {
+    float: left;
+    width: 62px;
+    *width: 78px;
+    margin-right: 10px;
+}
+.zxbj-calc-wrap .zxbj-content .passport {
+    float: left;
+    width: 68px;
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #d6e6f5;
+    background-color: #ebf5fc;
+    text-align: center;
+    color: #5489ba;
+}
+.zxbj-calc-wrap .zxbj-content .chg-pic {
+    float: right;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: underline !important;
+}
+.zxbj-calc-wrap .zxbj-content .chg-pic:hover {
+    color: #f26f20;
+}
+.zxbj-calc-wrap .zxbj-content .price-box {
+    margin: 18px 0 26px 0;
+    /*text-align: center;*/
+    padding-left: 20px;
+}
+.zxbj-calc-wrap .zxbj-content .price-box p{
+    margin-top: 7px;
+}
+.zxbj-calc-wrap .zxbj-content .price-box span {
+    font-size: 18px;
+    color: #f26f20;
+}
+.zxbj-calc-wrap .form_error {
+    color: #ff6666;
+}
+.zxbj-calc-wrap .text-wrap {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.zxbj-calc-wrap .zxbj-content .text-wrap .element label {
+  margin-right: 20px;
+  *margin-right: 16px;
+}
+.zxbj-calc-wrap .zxbj-content .text-box {
+    margin-top: 25px;
+    padding-left: 20px;
+    padding-right: 28px;
+    height: 80px; 
+}
+.erro{font-size:12px;color: #c7c7c7;}
+.zxbj-calc-wrap .zxbj-content .erro em{ position: static; background: url(http://img.to8to.com/to8to_img/zxbj/sjybj_global.png?20150724) no-repeat;_background: url(http://img.to8to.com/to8to_img/zxbj/sjybj_global.gif?20150724) no-repeat;  
+    background-position: 0 -892px; width: 18px;height: 12px; display: inline-block; margin-right: 8px;}
+
+.zxbj-calc-wrap .bottom-img {
+    position: relative;
+}
+.zxbj-calc-wrap .bottom-img span {
+    position: absolute;
+    top: 22px;
+    right: 20px;
+    font-weight: bold;
+    color: #f26f20;
+}
+.zxbj-calc-wrap .zxbj .step4 .color-bold {
+    color: #f26f20;
+}

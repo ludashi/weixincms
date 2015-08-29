@@ -1,0 +1,58 @@
+.caption-top, .caption-bottom {
+    color: #ffffff; 
+    padding: 5px; 
+    font-size: 12px;    
+    border: 0px solid #334143;
+    background: #000000;
+    text-shadow: 1px 1px 0 #202020;
+}
+.caption-top {
+   border-width: 0;
+}
+.caption-bottom {
+   border-width: 0;
+}
+.caption a, .caption a {
+    border: 0 none;
+    text-decoration: none;
+    background: #000000;
+    padding: 5px;
+}
+.caption a:hover, .caption a:hover {
+    background: #202020;
+}
+.caption-wrapper {
+    float: left;
+}
+br.c { clear: both; }
+
+
+/* for tabs */ 
+.ui-tabs-hide{
+    display:none !important;
+}
+
+.ui-tabs-selected a {
+    background: url(../images/column-tabbg.jpg) left top no-repeat !important;
+    color: #FFFFFF !important;
+}
+.othervideo    {
+    float:left;
+    margin: 0 30px 20px 40px;
+}
+.othervideo         li          {
+    float: left;
+    margin-right: 8px;
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    background-color: #F0F0F0;
+}
+.othervideo img {
+    height: 87px;
+    width: 110px;
+}
+
+
+

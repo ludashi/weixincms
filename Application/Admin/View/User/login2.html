@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Login PHP</title>
+	<link rel="stylesheet" href="__PUBLIC__/style1/admin/style.css" />
+	<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="__PUBLIC__/js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript">
+	
+	$(document).ready(function(){
+		$("#login").click(function(){
+			
+			var action = $("#lg-form").attr('action');
+			var form_data = {
+				username: $("#username").val(),
+				password: $("#password").val(),
+				is_ajax: 1
+			};
+			
+			$.ajax({
+				type: "POST",
+				url: action,
+				data: form_data,
+				success: function(response)
+				{
+					
+					if(typeof(response) == 'object')
+					if(response.status == 1)
+						$("#lg-form").slideUp('slow', function(){
+							$("#message").html('<p class="success">' + response.info + '</p><p>正在<a href="'+response.url+'">跳转</a>....</p>');
+							setTimeout('redirect("'+response.url+'")',500);
+						});
+					else
+						$("#message").html('<p class="error">ERROR: ' + response.info + '</p>');
+				},	
+				error:function(){
+					$("#message").html('<p class="error">ERROR: 无法连接到服务器 </p>');
+				}
+			});
+			return false;
+		});
+	});
+	function redirect(url){
+		window.location.href=url;
+	}
+	</script>
+</head>
+<body>
+	<div class="lg-container">
+		<h1>Admin Login</h1>
+		<form action="{:U('user/login')}" id="lg-form" name="lg-form" method="post">
+			
+			<div>
+				<label for="username">账号:</label>
+				<input type="text" name="username" id="username" placeholder="username"/>
+			</div>
+			
+			<div>
+				<label for="password">密码:</label>
+				<input type="password" name="password" id="password" placeholder="password" />
+			</div>
+			
+			<div>				
+				<button type="submit" id="login">登陆</button>
+			</div>
+			
+		</form>
+		<div id="message"></div>
+	</div>
+</body>
+</html>

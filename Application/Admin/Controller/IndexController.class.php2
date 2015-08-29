@@ -1,0 +1,92 @@
+<?php
+namespace Admin\Controller;
+use Think\PbAdmController;
+class IndexController extends PbAdmController {
+   
+	
+	public function index(){
+		$this->display();
+	}
+	public function tests(){
+		#header('content-type:text/json;charset=utf-8');
+		#echo json_encode();
+		print_r($_FILES);
+	}
+	public function del(){
+		echo '你请求的id是'.I('id');
+	}
+	public function sh(){
+		echo '你请求的id是'.I('id');
+	}
+	public function edit(){
+		
+	}
+	public function testcode(){
+		
+		header('content-type:text/json;charset=utf-8');
+			$jsonArray = array(
+							'keys'=>array(
+										array(
+											'username',
+											'用户名1'
+										),
+										array(
+											'realname',
+											'真实姓名'
+										),
+										array(
+											'idcard',
+											'身份证'
+										),
+										array(
+											'prikey',
+											array(
+												array(
+													'/index.php/admin/index/del/id/__id__.html',
+													'删除',
+													'$.get',//获取数据的方法只支持post,get
+													'DreamAjax.alert',//回调数据的处理方法
+													'DreamAjax.confirm',
+												),
+												array(
+													'/index.php/admin/index/sh/id/__id__.html',
+													'审核',
+													'$.get',//获取数据的方法
+													'DreamAjax.alert',//数据的处理方法
+													'DreamAjax.confirm',
+												),
+												array(
+													'/index.php/admin/index/edit/id/__id__.html',
+													'编辑',
+													'$.get',//获取数据的方法
+													'eval'
+												),
+											)
+										),
+									),
+							'values'=>array(
+										array(
+										'username'=>'p33',
+										'realname'=>'21',
+										'idcard'=>'432',
+										'prikey'=>'12',
+										),
+										array(
+										'username'=>'p5',
+										'realname'=>'312312',
+										'idcard'=>'132143231',
+										'prikey'=>'31',
+										),
+										array(
+										'username'=>'p3',
+										'realname'=>'dasdas',
+										'idcard'=>'12',
+										'prikey'=>'14',
+										),
+									)
+						);
+				echo json_encode($jsonArray);
+		
+	}
+	
+}

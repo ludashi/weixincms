@@ -1,0 +1,611 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-TW" lang="zh-TW">
+    <head>
+        <!-- Assign Theme name -->
+        
+        <!-- Title and meta -->
+        <meta http-equiv="content-language" content="zh-TW" />
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <title>找不到您所查詢的網頁！ :::幸福空間:::華人首選室內設計、裝潢影音入口平台!</title>
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="室內設計,室內設計師,裝潢,裝修,室內設計,室內設計師,裝潢,裝修,室內設計,室內設計師,裝潢,裝修" />
+        <meta name="description" content="室內設計,室內設計師,裝潢,裝修,室內設計,室內設計師,裝潢,裝修,室內設計,室內設計師,裝潢,裝修" />
+        <meta name="rating" content="general" />
+        <meta name="author" content="幸福空間(室內設計,室內設計師,裝潢,收納,室內裝修,華人地區首選最大室內設計ｘ居家生活ｘ裝潢影音入口平台!)" />
+        <meta name="copyright" content=":::幸福空間:::華人首選居家生活．室內設計．裝潢影音入口平台!" />
+        <meta name="viewport" content="width=1200">
+
+        
+
+        <!-- Rss -->
+        <link rel="alternate" type="application/rss+xml" title="" href="http://www.hhh.com.tw/backend.php" />
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/ico" href="http://www.hhh.com.tw/themes/hhh/icons/favicon.ico" />
+        <link rel="icon" type="image/png" href="http://www.hhh.com.tw/themes/hhh/icons/favicon.png" />
+
+        <!-- Sheet Css -->
+        <link rel="stylesheet" type="text/css" media="all" title="Style sheet" href="http://www.hhh.com.tw/xoops.css" />
+        <link rel="stylesheet" type="text/css" media="all" title="Style sheet" href="http://www.hhh.com.tw/themes/hhh/style.css" />
+        <link rel="stylesheet" type="text/css" media="all" title="Style sheet" href="http://www.hhh.com.tw/themes/hhh/css/reset.css?20131125" />
+        <link rel="stylesheet" type="text/css" media="all" title="Style sheet" href="http://www.hhh.com.tw/themes/hhh/css/global.css?20131125" />
+        <link rel="stylesheet" type="text/css" media="all" title="Style sheet" href="http://www.hhh.com.tw/themes/hhh/css/layout.css?20131125" />
+        <link rel="stylesheet" type="text/css" media="all" title="Style sheet" href="http://www.hhh.com.tw/themes/hhh/css/content.css?20131125" />
+        <link rel="stylesheet" type="text/css" media="all" title="Style sheet" href="http://www.hhh.com.tw/themes/hhh/css/brandworks.css?20131125" />
+        <link rel="stylesheet" type="text/css" media="all" title="Style sheet" href="http://www.hhh.com.tw/themes/hhh/css/tiger.css" />
+        <!--[if lte IE 8]>
+        <link rel="stylesheet" href="http://www.hhh.com.tw/themes/hhh/styleIE8.css" type="text/css" />
+        <![endif]-->
+        
+        <!-- 回頂部 start -->
+		<style type="text/css">
+        #gotop{
+            display: none;
+			position: fixed;
+            right: 25px;
+            bottom: 20px; 
+            cursor: pointer;		
+			z-index:99999;
+        }
+		
+		#gotop a{
+			display:block;
+			width:64px;
+			height:64px;
+   			background-image:url(http://staging.hhh.com.tw/themes/hhh/images/gotop.png);
+			background-repeat:no-repeat;
+			background-position:0 0;
+		}
+		
+		#gotop a:hover{
+			background-position:0 bottom;
+		}	
+        </style>
+		<!-- 回頂部 end -->
+
+        <!-- customized header contents -->
+                <script type="text/javascript" src="http://www.hhh.com.tw/themes/hhh/css/jquery-latest.min.js"></script>
+        <script type="text/javascript" src="http://www.hhh.com.tw/modules/gs/hhh/event/gacode.js"></script>
+        
+        <script src="http://www.hhh.com.tw/include/xoops.js" type="text/javascript"></script>
+<link rel="stylesheet" href="http://www.hhh.com.tw/language/tchinese_utf8/style.css" type="text/css" />
+
+
+
+        <script type="text/javascript">
+
+            $(function() {
+                $(".pushbox").hover (
+                    function(){//mouse over 時執行的動作
+                        $(this).find(".push").addClass("pushon");//改變play icon
+                    },
+                    function(){//mouse out 時執行的動作
+                        $(this).find(".push").removeClass("pushon")//回復play icon
+                    });
+
+                $(".videolist, .side-video, .vitem").hover (
+                    function(){$(this).find(".play2").addClass("play2on");},
+                    function(){$(this).find(".play2").removeClass("play2on")}
+                );
+
+                // 影片hover
+                $(".play22").parent().hover(
+                    function(){ $(this).find('.play22').addClass("play22on"); },
+                    function(){ $(this).find('.play22').removeClass("play22on"); }
+                );
+
+            });
+
+            function ajax_push(obj,ptype,pid){
+                $.post('http://www.hhh.com.tw/modules/gs/ajax.php',
+                    {'ajax_push':'1', 'type':ptype, 'id':pid},
+                    function(data){
+                        if(data=='ok'){
+                            var ocp = parseInt($(obj).text())+1;
+                            $(obj).html(ocp + '<div class="push pushon"></div>');
+                        }else{
+                            alert(data);
+                        }
+                    });
+            }
+
+            function ajax_click_counter(tbl,id){
+                $.post('http://www.hhh.com.tw/modules/gs/ajax.php', 
+                    {'ajax_click_counter':'1', 'tbl':tbl, 'id':id},
+                    function(data){
+                    });
+            }
+
+            function ajax_click(id){
+                $.post('http://www.hhh.com.tw/modules/gs/ajax.php',
+                    {'ajax_click':'1', 'id':id},
+                    function(data){
+                    });
+            }
+
+            function ajax_newspaper(email, op){
+                $.post('http://www.hhh.com.tw/modules/gs/ajax.php',
+                        {'ajax_newspaper':op, 'email':email},
+                        function(data){
+                            alert(data);
+                        });
+            }
+
+            function ajax_addfav( myfav, page_title ){
+                var url = $(location).attr('href');
+                $.post('http://www.hhh.com.tw/modules/gs/ajax.php',
+                        {'ajax_addfav':'1', 'url':url, 'desc':myfav, 'page_title':page_title},
+                        function(data){
+                            alert(data);
+                        });
+            }
+
+            function delmyfav(obj, id){
+                if( confirm_delete() ){
+                    $.post('http://www.hhh.com.tw/modules/gs/ajax.php',
+                        {'ajax_delfav':'1', 'id':id},
+                            function(data){
+                            });
+                    $(obj).parent().parent().remove();
+                }
+            }
+            function confirm_delete(){
+                var x = confirm('確定要刪除?');
+                return x;
+            }
+
+        </script>
+
+<!--ga start-->
+
+
+<!--ga end-->
+
+
+<!-- 回頂部 start -->
+<script type="text/javascript">
+$(function(){
+    $("#gotop").click(function(){
+        jQuery("html,body").animate({
+            scrollTop:0
+        },1000);
+    });
+    $(window).scroll(function() {
+        if ( $(this).scrollTop() > 300){
+            $('#gotop').fadeIn("fast");
+        } else {
+            $('#gotop').stop().fadeOut("fast");
+        }
+    });
+});
+</script>
+<!-- 回頂部 end -->
+
+</head>
+
+<body id="gs" class="zh-TW">
+    <!-- Start Alexa Certify Javascript -->
+    <script type="text/javascript">
+        _atrk_opts = { atrk_acct:"WblFi1a8Dy00OP", domain:"hhh.com.tw",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script>
+<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=WblFi1a8Dy00OP" style="display:none" height="1" width="1" alt="" /></noscript>
+<!-- End Alexa Certify Javascript -->
+
+<!-- Begin comScore Tag -->
+<script>
+    var _comscore = _comscore || [];
+    _comscore.push({ c1: "2", c2: "17934019" });
+    (function() {
+        var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+        s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+        el.parentNode.insertBefore(s, el);
+    })();
+</script>
+<noscript>
+    <img src="http://b.scorecardresearch.com/p?c1=2&c2=17934019&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+<script type="text/javascript">
+    /* <![CDATA[ */
+var google_conversion_id = 976061430;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+    <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/976061430/?value=0&amp;guid=ON&amp;script=0"/>
+    </div>
+</noscript>
+    
+
+        <!-- top start-->
+        <div id="topblock">
+
+<!-- wrapper start0815-->
+<div id="wrapper-outter">
+<div id="wrapper">
+
+<!-- 回頂部 start -->
+<div id="gotop"><a href="javascript:void(0)"></a></div>
+<!-- 回頂部 end -->
+
+            <!-- topnav start-->
+            <div id="topnav">
+            <ul>
+                                <li style="width:67px;"><div id="fb-root" style="display:inline-block;"></div>
+                <fb:login-button  onlogin="loginfb();" size="small"></fb:login-button></li>
+                <li class="loginhhh" style="width:60px;"><a onclick="$('#tiger_login-form').toggleClass('hide');" ></a></li><span>|</span>
+                                <li><a href="http://m.hhh.com.tw/" style="color:#2A75C5;" target="_blank">手機版</a></li><span>|</span>
+                <li><a href="http://www.hhh.com.tw/modules/gs/video-schedule.php">電視節目表</a></li><span>|</span>
+                <li><a href="http://www.hhh.com.tw/modules/gs/staticpage.php?page=contact">聯絡我們</a></li><span>|</span>
+                <li><a href="https://www.facebook.com/hhhfb" target='_blank'>Facebook粉絲團</a></li><span>|</span>
+                <li style="width:84px;"><iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fhhhfb&amp;send=false&amp;layout=button_count&amp;width=84&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=20" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:84px; height:20px;" allowTransparency="true"></iframe></li>
+            </ul>
+            </div>
+
+            <!-- logo start-->
+            <div id="logo">
+            <a href="http://www.hhh.com.tw/"><img src="http://www.hhh.com.tw/themes/hhh/images/logo.png"/></a>
+            </div>
+
+            <!-- 刊頭廣告 1-6 --> 
+            <style>
+                #topad6 a {margin:0 0 0 5px; position:relative; display:inline-block;}
+                #topad6 span{position:absolute; line-height:18px; width:100%; top:68px; text-align:center; background-color:#000; color:#fff; z-index:10; display:none;}
+                #topad6 img {z-index:1;}
+            </style>
+            <script>
+                function topad6txt(elem){
+                    $(elem).children('span').css('display','block');
+                    $(elem).children('img').css('opacity',0.6);
+                }
+                function topad6txtout(elem){
+                    $(elem).children('span').css('display','none');
+                    $(elem).children('img').css('opacity',1);
+                }
+            </script>
+            <div id="topad6" style='float:right;margin:10px 0 0 0;'>
+                                                <a href="http://www.hhh.com.tw/modules/gs/designer.php?hdesigner_id=356" target='ad' onclick="ajax_click_counter('had',6125)" onmouseover="topad6txt(this)" onmouseout="topad6txtout(this)">
+                    <span class='topad6txt'>京璽國際</span>
+                    <img class='topad6img' src="http://www.hhh.com.tw/uploads/gs/ad/356_115x86.gif">
+                </a>
+                                                                <a href="http://www.hhh.com.tw/modules/gs/designer.php?hdesigner_id=145" target='ad' onclick="ajax_click_counter('had',6409)" onmouseover="topad6txt(this)" onmouseout="topad6txtout(this)">
+                    <span class='topad6txt'>惹雅設計</span>
+                    <img class='topad6img' src="http://www.hhh.com.tw/uploads/gs/ad/d145_115x86.gif">
+                </a>
+                                                                <a href="http://www.hhh.com.tw/modules/gs/designer.php?hdesigner_id=332" target='ad' onclick="ajax_click_counter('had',5661)" onmouseover="topad6txt(this)" onmouseout="topad6txtout(this)">
+                    <span class='topad6txt'>澄境設計</span>
+                    <img class='topad6img' src="http://www.hhh.com.tw/uploads/gs/ad/d332_115x86.gif">
+                </a>
+                                                                <a href="http://www.hhh.com.tw/modules/gs/designer.php?hdesigner_id=98" target='ad' onclick="ajax_click_counter('had',8360)" onmouseover="topad6txt(this)" onmouseout="topad6txtout(this)">
+                    <span class='topad6txt'>楊煥生設計</span>
+                    <img class='topad6img' src="http://www.hhh.com.tw/uploads/gs/ad/d98_115x86.gif">
+                </a>
+                                                                <a href="http://www.hhh.com.tw/modules/gs/designer.php?hdesigner_id=298" target='ad' onclick="ajax_click_counter('had',3940)" onmouseover="topad6txt(this)" onmouseout="topad6txtout(this)">
+                    <span class='topad6txt'>慕澤設計</span>
+                    <img class='topad6img' src="http://www.hhh.com.tw/uploads/gs/ad/d298_115x86.gif">
+                </a>
+                                                                <a href="http://www.hhh.com.tw/modules/gs/designer.php?hdesigner_id=353" target='ad' onclick="ajax_click_counter('had',6304)" onmouseover="topad6txt(this)" onmouseout="topad6txtout(this)">
+                    <span class='topad6txt'>法柏設計</span>
+                    <img class='topad6img' src="http://www.hhh.com.tw/uploads/gs/ad/d353_115x86.gif">
+                </a>
+                                            </div>
+            <!-- 刊頭廣告 1-6 -->   
+
+            <!-- 搜尋列 start-->
+            <div class="subnav">
+                <!-- Google搜尋 start -->           
+                <div style="position:absolute;">
+<form method="get" action="http://www.hhh.com.tw/modules/gs/hhh/google_search.php">
+<input type="hidden" name="cx" value="partner-pub-2782162253828353:5993193147" />
+<input type="hidden" name="adsensehosts" value="pub-7449992691305813" />
+<input type="hidden" name="s" value="cse" />
+<input type="hidden" name="ie" value="utf8" />
+<input type="hidden" name="cof" value="FORID:10" />
+<div style="float:left; margin:3px;">
+<input id="q" name="q" onfocus="if(this.value=='全站搜尋') this.value='';" onblur="if(this.value=='') this.value='全站搜尋';" value="全站搜尋" type="text" size="30" style="padding:1px 5px; width:200px;" /></div>
+<div class="google_search_b" title="搜尋" onclick="jQuery(this).closest('form').submit();"></div>
+</form>
+                </div>
+
+                <!-- Google搜尋 end -->
+                <div class="searchbar">
+                    <ul>
+                        <form action="http://www.hhh.com.tw/modules/gs/site-search.php">
+                        <li style="padding:2px 10px 0 15px; color:#666;">熱門：
+                                                <a href="http://www.hhh.com.tw/modules/gs/hhh/event/2015-Top-Brands/index.php" target='ad' onclick="ajax_click_counter('had',2608)">2015消費者愛用品牌</a>&nbsp;
+                                                <a href="designer.php?hdesigner_id=58" target='ad' onclick="ajax_click_counter('had',9456)">高CP值大改造</a>&nbsp;
+                                                </li>
+                        <li>
+                        <select name="sstype" id="select">
+                            <option>設計師</option>
+                            <option>影音</option>
+                            <option>個案</option>
+                            <option>廠商</option>
+                            <option>議題</option>
+                            <option>討論區</option>
+                        </select>
+                        </li>
+                        <li><input name="sstext" type="text" class="searchtext" size="35" onfocus="if(this.value=='輸入關鍵字') this.value='';" onblur="if(this.value=='') this.value='輸入關鍵字';" value="輸入關鍵字" /></li>
+                        <li><input type="submit" id="button" value="搜尋" style="cursor:pointer;"/></li>
+                        </form>
+                    </ul>
+                </div>
+            </div>
+            <!-- 搜尋列 end-->
+
+    </div>
+    </div><!-- wrapper end0815-->
+
+
+            <!-- 主選單 navbar start-->
+            <!-- 新增100% 0815--><div class="navmenu_o">
+            <div class="navmenu">
+                <ul id='hhhtab'>
+                    <li style="position:relative;"><a class='b10' href="http://www.hhh.com.tw/modules/gs/video-schedule.php?chan_tab=6"><img src="http://www.hhh.com.tw/modules/gs/images/new_icon.gif" width="28" height="11" style="position:absolute;top:11px;left:5px;">Home TV</a></li>  
+                                        <li><a class="b1"  href="/modules/gs/video.php">電視節目</a></li>
+                                        <li><a class="b2"  href="/modules/gs/designer-list.php">設計師群</a></li>
+                                        <li><a class="b3"  href="/modules/gs/case-list.php">最新個案</a></li>
+                                        <li><a class="b4"  href="/modules/gs/brand-front.php">精產品館</a></li>
+                                        <li><a class="b5"  href="/modules/gs/column-list.php">居家專欄</a></li>
+                                        <li><a class="b6"  href="/modules/gs/event-list.php">活動專區</a></li>
+                                        <li><a class="b7"  href="/modules/gs/publish.php">出版專區</a></li>
+                                        <li><a class='b8' href="http://deco.hhh.com.tw/index/index.php?ad_from=hhh.com.tw_menubar" target="_blank">幸福裝修</a></li>
+                </ul>
+            </div>
+            </div>
+
+			<!-- 新增100% 0815--><div class="navmenu_event_o" >
+            <div class="navmenu_event" >
+                <ul>
+               		<li class="first"><a href="http://www.hhh.com.tw/modules/gs/hhh/event/2015-Top-Brands/index.php" target="_blank">2015消費者愛用品牌</a></li>
+                    <li class="seperator"></li>
+                    <li><a href="/modules/gs/hhh/event/2015-Most-Favorite-Designers/index.php" target="_blank">2015觀眾最愛設計師</a></li>
+                    <li class="seperator"></li>
+                    <li><a href="http://www.hhh.com.tw/modules/gs/hhh/contest/2015/index.php" target="_blank"><img src="http://www.hhh.com.tw/modules/gs/images/new_icon.gif" width="28" height="11">亞洲設計獎</a></li>
+                    <li class="seperator"></li>
+                    <li class="highlight"><a href="http://www.hhh.com.tw/modules/gs/hhh/event/event140917/index.php" target="_blank">老屋翻新 ‧ 住宅改造</a></li>
+                    <li class="seperator"></li>
+                    <li><a href="http://www.hhh.com.tw/modules/gs/hhh/million/06/index.php" target="_blank"><img src="http://www.hhh.com.tw/modules/gs/images/new_icon.gif" width="28" height="11">百萬贊助到你家</a></li>
+                    <li class="seperator"></li>
+                    <li><a href="http://agent.hhh.com.tw/forum/forum.html" target="_blank">幸福講堂</a></li>
+                    <li class="seperator"></li>
+                    <li><a href="http://www.hhh.com.tw/modules/gs/topic.php?op=list" target="_blank">小編主題企劃</a></li>
+
+                    <!-- 橘字<li id="million2014"><a href="http://www.hhh.com.tw/modules/gs/topic.php?op=list" target="_blank">小編主題企劃</a></li>-->
+                </ul>   
+            </div>
+            </div>
+            <!-- navbar end-->
+            
+            <!-- 廣告修改置中 0815-->
+            <div class="index_agentad"><a href="http://agent.hhh.com.tw/service.php" target="_blank"><img src="http://www.hhh.com.tw/modules/gs/hhh/web_ad/agent999x70.gif" width="999" height="70" /></a></div>
+             
+             
+             <!-- 固定主選單 start-->
+             <script>
+			$(function(){
+				$(window).load(function(){
+					$(window).bind('scroll resize', function(){
+						var $this = $(this);
+						var $this_Top=$this.scrollTop();
+						
+						//當高度小於100時，關閉區塊	
+						if($this_Top < 350){
+							$('#topmenu_o').stop().animate({top:"-150px"});
+							}
+						if($this_Top > 350){
+							$('#topmenu_o').stop().animate({top:"0px"});
+									
+						}
+					}).scroll();
+				});
+			});
+			</script> 
+            
+            <div id="topmenu_o">
+            <div id="topmenu">
+                <ul id='hhhtopmenu'> 
+                    <div class="hhhtopmenu-logo"><a href="http://www.hhh.com.tw/"><img src="http://www.hhh.com.tw/themes/hhh/images/topmenu_logo.png" width="90" height="30"></a></div>
+                    <li style="position:relative;"><a class='tm10' href="http://www.hhh.com.tw/modules/gs/video-schedule.php?chan_tab=6" target="_blank"><img src="http://www.hhh.com.tw/modules/gs/images/new_icon.gif" width="28" height="11" style="position:absolute;top:9px;left:0;">Home TV</a></li> 
+                                        <li><a class="tm1"  href="/modules/gs/video.php">電視節目</a></li>
+                                        <li><a class="tm2"  href="/modules/gs/designer-list.php">設計師群</a></li>
+                                        <li><a class="tm3"  href="/modules/gs/case-list.php">最新個案</a></li>
+                                        <li><a class="tm4"  href="/modules/gs/brand-front.php">精產品館</a></li>
+                                        <li><a class="tm5"  href="/modules/gs/column-list.php">居家專欄</a></li>
+                                        <li><a class="tm6"  href="/modules/gs/event-list.php">活動專區</a></li>
+                                        <li><a class="tm7"  href="/modules/gs/publish.php">出版專區</a></li>
+                                        <li><a class='tm8' href="http://deco.hhh.com.tw/index/index.php?ad_from=hhh.com.tw_menubar" target="_blank">幸福裝修</a></li>
+                </ul>
+            </div>
+            <div class="topmenu_ad"><a href="http://agent.hhh.com.tw/service.php" target="_blank"><img src="http://www.hhh.com.tw/modules/gs/hhh/web_ad/topmenu_ad.gif" width="1000" height="32" /></a></div>
+            </div>
+            <!-- 固定主選單 end-->  
+              
+              
+        </div>  
+        <!-- top end--> 
+
+
+<!-- wrapper start0815-->
+    <div id="wrapper">
+
+
+        <!-- main content start -->
+        
+<style type="text/css">
+.error_404{
+    width:830px;
+    height:320px;
+    background-image:url(images/404error.png);
+    margin:30px auto;
+    }
+    
+.error_404 p{
+    width:400px;
+    font-size:15px;
+    line-height:1.8;
+    color:#333;
+    float:right;
+    margin:150px 0 0 0;
+    }
+    
+.error_404 a{
+    text-decoration:none;
+    color:#f70;
+    }
+    
+.error_404_url{
+    color:#f70;
+    line-height:3;
+    }
+    
+.error_404 a:hover{
+    text-decoration:underline;
+    color:#f70;
+    }
+</style>
+
+<div class="error_404">
+    <p>
+    很抱歉，找不到您所查詢的網頁！<br />
+    此網頁可能已過期失效，或已經轉移到其他網址！<br />
+    建議您檢查輸入的網址是否有誤，謝謝。<br />
+    <span class="error_404_url"><a href="http://www.hhh.com.tw/">回幸福空間首頁</a>｜<a href="http://www.hhh.com.tw/modules/gs/designer-list.php">找設計師</a>｜<a href="http://www.hhh.com.tw/modules/gs/case-list.php">個案欣賞</a></span>
+    </p>
+</div>
+
+
+        <!-- main content end -->
+        
+       
+<div id="footer">
+
+<div class="section">
+	<div class="f_asia">
+    <div>
+        <div class="f_title">幸福空間台灣地區</div>
+        <ul>
+          <li><a href="http://m.hhh.com.tw" target="_blank">手機版網頁</a>｜</li>
+          <li><a href="http://agent.hhh.com.tw" target="_blank">幸福經紀人</a>｜</li>
+          <li><a href="http://deco.hhh.com.tw" target="_blank">幸福裝修</a></li>
+        </ul>
+    </div>
+    
+    <div style="clear:both"></div>
+    
+    <div>
+        <div class="f_title">幸福空間大陸地區</div>
+        <ul>
+          <li><a href="http://www.hhh188.cn/" target="_blank">大陸站</a>｜</li>
+          <li><a href="http://www.tudou.com/home/xingfukongjian" target="_blank">土豆網</a>｜</li>
+          <li><a href="http://www.iqiyi.com/life/xfkj1.html" target="_blank">愛奇藝</a>｜</li>
+          <li><a href="http://life.pptv.com/zt/gorgeousspace/" target="_blank">PPTV</a>｜</li>
+          <li><a href="http://v.qq.com/vplus/f728eeb45712a0687126a454e1060f71" target="_blank">騰訊視頻</a>｜</li>
+          <li><a href="http://fashion.letv.com/zt/xfkjwpsjs/index.shtml" target="_blank">樂視網</a>｜</li>
+          <li><a href="http://www.baomihua.com/user/12124" target="_blank">爆米花網</a>｜</li>
+          <li><a href="http://www.shejiben.com/tw_activity/" target="_blank">土巴兔</a>｜</li>
+          <li><a href="http://v.pchouse.com.cn/bliss/" target="_blank">太平洋家居</a>｜</li>
+          <li><a href="http://zx.jiaju.sina.com.cn/10078/anli/?qq-pf-to=pcqq.c2c" target="_blank">新浪家居</a>｜</li>
+          <li><a href="http://designer.home.163.com/search.do?city=%D0%D2%B8%A3%BF%D5%BC%E4&specialty=&designername=" target="_blank">網易家居</a>｜</li>
+          <li><a href="http://www.jia.com/" target="_blank">齊家網</a></li>
+        </ul>
+    </div>
+    </div>
+</div>
+
+<div class="section">
+	<div class="f_social">
+       <div>
+        <div class="f_title">幸福空間社群經營</div>
+            <ul style="width:140px;">
+                <li class="ff"><a href="http://www.facebook.com/hhhfb" target="_blank">幸福空間粉絲團</a>　</li>
+                <li class="ff"><a href="http://www.facebook.com/agent.hhh.com.tw" target="_blank">幸福經紀人粉絲團</a>　</li>
+                <li class="ff"><a href="http://www.facebook.com/deco.hhh.com.tw" target="_blank">幸福裝修粉絲團</a>　</li>
+            </ul>
+         
+            <ul style="width:180px;">
+                <li class="ww"><a href="http://weibo.com/hhh188" target="_blank">幸福空間新浪微博</a>　</li>
+                <li class="yy"><a href="http://www.youtube.com/user/gorgeousspace" target="_blank">幸福空間Youtube</a>　</li>
+                <li class="qq"><a href="https://wx.qq.com/" target="_blank">微信 搜尋「台湾幸福空间」</a></li>
+            </ul>
+            
+            <div style="clear:both"></div> 
+            
+            <div class="f_title">訂閱電子報</div>
+                <div class="subscribe">
+                    <span class="index_email"> 輸入您的E-mail
+                    <input type="text" class="email" style="width:150px;" id='subscribe_newspaper'/>
+                    <input onclick="ajax_newspaper($('#subscribe_newspaper').val(), 'subscribe')" type="button" class="button" value="訂閱" align="right" style="cursor:pointer;"/></span>
+            	</div>
+       </div>
+    </div>
+
+</div>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.4&appId=1390615377925224";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="section">
+	<div class="f_service">
+
+<div class="fb_like_box">
+<div class="fb-page" data-href="https://www.facebook.com/hhhfb" data-width="400" data-height="180" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/hhhfb"><a href="https://www.facebook.com/hhhfb">幸福空間 Gorgeous Space</a></blockquote></div></div>
+</div>
+     </div>
+</div>
+
+<div style="clear:both"></div>
+
+<div class="footer_last">
+<p><a href="http://www.hhh.com.tw/modules/gs/designer.php?hdesigner_id=100" target="_blank">大陸地區免付費諮詢專線</a><span class="tel">400-066-2878</span>　<a href="http://agent.hhh.com.tw" target="_blank">幸福經紀人免付費諮詢專線</a><span class="tel">0800-366-086</span></p><p><a href="http://www.hhh.com.tw/modules/gs/staticpage.php?page=adcoop" target="_blank">廣告與合作</a> | <a href="http://www.hhh.com.tw/modules/gs/staticpage.php?page=contact" target="_blank">聯絡我們</a> | <a href="http://www.hhh.com.tw/modules/gs/staticpage.php?page=property" target="_blank">隱私權保護</a> | <a href="http://www.hhh.com.tw/modules/gs/staticpage.php?page=about" target="_blank">關於本站</a>　幸福空間 版權所有 © Gorgeous Space Co.Ltd. All Rights Reserved</p>
+</div>
+
+</div>
+
+
+    </div>
+    <!--- wrapper end --->
+
+    <!-- Start left blocks loop -->
+        <!-- End left blocks loop -->
+
+    <!--{xo-logger-output}-->
+
+<!-- tiger login form -->
+<div id='tiger_login-form' class='login-popup hide'>
+    <div style="width:200px;background:#aaa;padding:5px;">
+        登入會員
+        <div style="float:right;cursor:pointer;" onclick="$('#tiger_login-form').toggleClass('hide');" style="cursor:pointer;" title="關閉">X</div>
+    </div>
+    <br>
+    <form action="http://www.hhh.com.tw/user.php" method="post">
+        帳號：<input type="text" name="uname" size="12" value="" maxlength="25"><br>
+        密碼：<input type="password" name="pass" size="12" maxlength="32"><br>
+        <!--<input type="checkbox" name="rememberme" value="On" >記住我<br>-->
+        <br>
+        <input type="hidden" name="xoops_redirect" value="/modules/gs/staticpage.php?page=404">
+        <input type="hidden" name="op" value="login">
+        <input type="submit" value="會員登入"><br>
+    </form>
+    <br>
+    <a href="http://www.hhh.com.tw/user.php" title="忘記密碼？">忘記密碼？</a>
+    <br><br>
+    <a href="http://www.hhh.com.tw/register.php" title="現在註冊！">現在註冊！</a>
+    <div style="margin:20px 0 0 0;"></div>
+</div>
+<!-- tiger login form -->
+
+</body>
+</html>

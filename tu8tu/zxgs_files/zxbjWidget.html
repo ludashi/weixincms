@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<!-- saved from url=(0105)http://www.to8to.com/yezhu/zxbjWidget.php?mod=company&zxjc_ptag=1_5_1_30&zxbj_ptag=1_5_1_3&t=201508071546 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="zxbjWidget.css">
+<script src="jquery-1.10.2.min(1).js" type="text/javascript"></script>
+<script>
+    var jq = jQuery.noConflict();
+</script>
+<script src="common_new(1).js" type="text/javascript"></script>
+<script type="text/javascript">
+    function newverifypicMy(id) {  
+        var id = id || 'passport',
+            str = window.location.href.toString().split('.')[0].replace('http://', "") || 'www',
+            A = new Date().getTime();
+        if ($(id)) {
+            $(id).src = 'http://'+str+'.to8to.com/passport.php?t=' + A;
+        };
+    };
+</script>
+</head>
+<body>
+<div class="zxbj-calc-wrap " style="width:242px;">
+    <div class="tab-nav">
+        <a href="javascript:;" class="on">装修报价</a>
+        <a href="javascript:;">建材询价</a>
+    </div>
+    <!--hide-->
+    <form id="zxbj_area_form">
+        <ul id="zxbj_area_box" style="display: none">
+        </ul>
+    </form>
+    <!--装修报价-->
+    <div class="zxbj">
+        <input type="hidden" value="1_5_1_3" name="ptag">
+        <!-- 第1步 -->
+        <div class="zxbj-content step step1" style="display:block;">
+            <span class="desc">装修预算清单，轻松免费获得</span>
+            <div class="element">
+                <input class="text area" type="text" name="square">
+                <em>建筑面积</em>
+                <i class="unit">m²</i>
+            </div>
+            <div class="element">
+                <select class="province" name="User_Shen" id="zxbjcalcUser_Shen" onchange="changeProvince(&#39;zxbjcalcUser_Shen&#39;,&#39;zxbjcalcUser_City&#39;,&#39;zxbjcalcUser_Town&#39;);">
+                    
+                <option value="">省/市</option><option value="安徽">A 安徽</option><option value="北京">B 北京</option><option value="重庆">C 重庆</option><option value="福建">F 福建</option><option value="广西">G 广西</option><option value="贵州">G 贵州</option><option value="广东">G 广东</option><option value="甘肃">G 甘肃</option><option value="海南">H 海南</option><option value="湖北">H 湖北</option><option value="黑龙江">H 黑龙江</option><option value="河南">H 河南</option><option value="河北">H 河北</option><option value="湖南">H 湖南</option><option value="江苏">J 江苏</option><option value="吉林">J 吉林</option><option value="江西">J 江西</option><option value="辽宁">L 辽宁</option><option value="内蒙古">N 内蒙古</option><option value="宁夏">N 宁夏</option><option value="澳门">O 澳门</option><option value="青海">Q 青海</option><option value="四川">S 四川</option><option value="陕西">S 陕西</option><option value="上海">S 上海</option><option value="山东">S 山东</option><option value="山西">S 山西</option><option value="台湾">T 台湾</option><option value="天津">T 天津</option><option value="西藏">X 西藏</option><option value="香港">X 香港</option><option value="新疆">X 新疆</option><option value="云南">Y 云南</option><option value="浙江">Z 浙江</option></select>
+                <select class="city" name="User_City" id="zxbjcalcUser_City" onchange="changeTown(&#39;zxbjcalcUser_Shen&#39;,&#39;zxbjcalcUser_City&#39;,&#39;zxbjcalcUser_Town&#39;);">
+                    <option value="">市/地区</option>
+                </select>
+                <div style="display:none;">
+                    <select class="langSelect" id="zxbjcalcUser_Town" name="User_Town">
+                        <option>县/区</option>
+                    </select>
+                </div>
+            </div>
+            <div class="element">
+                <label>
+                    <input type="radio" name="dangci" value="jianzhuang">
+                    简装
+                </label>
+                <label>
+                    <input type="radio" name="dangci" value="jingzhuang">
+                    精装
+                </label>
+                <label class="last">
+                    <input type="radio" name="dangci" value="haohua">
+                    豪装
+                </label>
+            </div>
+            <div class="element">
+                <a class="submit-btn" href="javascript:;" searchtage="1_5_1_31">
+                    10秒立即拿报价
+                </a>
+            </div>
+        </div>
+        <!-- 第2步 -->
+        <div class="zxbj-content step step2">
+            <div class="tips">
+                <i></i>
+                为了方便您随时查看，计算结果将同时发送到您手机。
+            </div>
+            <div class="element">
+                <input class="text" type="text" name="chkPhone">
+                <em>手机号码</em>
+            </div>
+            <div class="element">
+                <input class="text yzm" type="text" name="chkYzm">
+                <em>验证码</em>
+                <!-- <a href="javascript:;" class="get-yzm">获取验证码</a> -->
+                <img class="passport" onclick="newverifypicMy(this);">
+                <a href="javascript:;" class="chg-pic">换一张</a>
+            </div>
+
+            <div class="element">
+                <input class="submit-btn" type="submit" value="10秒立即拿报价" searchtage="1_5_1_3">
+            </div>
+        </div>
+        <!-- 第3步 -->
+        <div class="zxbj-content step step3">
+            <div class="tips">
+                <i></i>
+                以下价格仅为估算报价，实际价格以量房结果为准！土巴兔家装顾问将在24小时内致电，为您提供更多的装修服务！
+            </div>
+            <div class="price-box">
+                <p>半包价格：<span>411859.26</span>元</p>
+                <p>全包价格：<span>778414.00</span>元</p>
+            </div>
+            <div class="text-wrap">
+                <div class="bj-text">您觉得以上报价：</div>
+                <div class="element">
+                    <label>
+                        <input type="radio" name="status" value="0">
+                        合理
+                    </label>
+                    <label>
+                        <input type="radio" name="status" value="1">
+                        偏低
+                    </label>
+                    <label class="last">
+                        <input type="radio" name="status" value="2">
+                        偏高
+                    </label>
+                </div>
+            </div>
+            <div class="element">
+                <a class="submit-btn" href="javascript:;" searchtage="1_5_1_32">如何精明的看报价？</a>
+            </div>
+        </div>
+        <!-- 第4步 -->
+        <div class="zxbj-content step step4">
+            <div class="tips">
+                <i></i>
+                请相信 ，土巴兔报价都是深入调研装修市场行情，报价公开透明，请严防其他恶意增项的天价报价单！
+            </div>
+            <div class="text-box">
+                土巴兔已为您安排专属家装顾问，<span class="color-bold">24小时内会致电您，为您详解增项风险！</span>
+            </div>
+
+            <div class="element">
+                <a class="submit-btn" href="javascript:;" target="_blank">了解报价明细</a>
+            </div>
+        </div>
+    </div>
+    <!--装修报价END-->
+
+    <!-- 建材询价 -->
+    <div class="jcxj" display="none">
+        <input type="hidden" value="1_5_1_30" name="ptag">
+        <!-- 第1步 -->
+        <div class="zxbj-content step step1">
+            <span class="desc">全屋装修建材，厂家零利报价</span>
+            <div class="element">
+                <input class="text area" type="text" name="square">
+                <em>建筑面积</em>
+                <i class="unit">m²</i>
+            </div>
+            <div class="element">
+                <!-- <em>房屋户型</em> -->
+                <select name="fang">
+                    <option value="1" selected="">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+                <span>房</span>
+                <select name="ting">
+                    <option value="0">0</option>
+                    <option value="1" selected="">1</option>
+                    <option value="2">2</option>
+                </select>
+                <span>厅</span>
+                <select name="wei">
+                    <option value="1" selected="">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <span>卫</span>
+            </div>
+            <div class="element">
+                <!-- <em>建材品牌</em> -->
+                <label>
+                    <input type="radio" checked="" name="brand" value="1">
+                    经济实用
+                </label>
+                <label class="last">
+                    <input type="radio" name="brand" value="2">
+                    高端知名
+                </label>
+            </div>
+            <div class="element">
+                <a class="submit-btn" href="javascript:;" searchtage="1_5_1_33">
+                    10秒立即拿报价
+                </a>
+            </div>
+        </div>
+        <!-- 第2步 -->
+        <div class="zxbj-content step step2">
+            <div class="tips">
+                <i></i>
+                为了让您清晰的了解价格，将为您发送详细报价清单，请填写您的手机号码。
+            </div>
+            <div class="element">
+                <input class="text" type="text" name="chkPhone">
+                <em>手机号码</em>
+            </div>
+            <div class="element">
+                <input class="text yzm" type="text" name="chkYzm">
+                <em>验证码</em>
+                <!-- <a href="javascript:;" class="get-yzm">获取验证码</a> -->
+                <img class="passport" onclick="newverifypicMy(this);">
+                <a href="javascript:;" class="chg-pic">换一张</a>
+            </div>
+
+            <div class="element">
+                <input class="submit-btn" type="submit" value="10秒立即拿报价" searchtage="1_5_1_30">
+            </div>
+        </div>
+        <!-- 第3步 -->
+        <div class="zxbj-content step step3">
+            <div class="tips">
+                <i></i>
+                您的需求已收到，我们将在24小时之内致电告知您全屋建材详细报价清单。
+            </div>
+            <div class="element">
+                <a class="submit-btn" href="javascript:;" searchtage="1_5_1_34">重新询价</a>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-img">
+        <img src="calc_widget_img_bottom.jpg" width="100%" height="76">
+        <!-- <span>本报价基于市场行情！</span> -->
+    </div>
+</div>
+<script src="GlobalProvinces(1).js" type="text/javascript"></script>
+<script src="zxbjWidget.js" type="text/javascript"></script>
+<script src="2a19dc2ac1471a7470fe7187a5537960(1).js" type="text/javascript"></script>
+
+
+<!-- END报价内容   -->
+<iframe frameborder="0" height="0" name="frm_dealer" id="clsIframe"></iframe><form action="a682ab23d4b4c95f84c744b2826419cd.html" method="POST" id="frm_dealer" target="frm_dealer"><input type="hidden" id="clickValId" name="key" value="{&quot;pv&quot;:{&quot;lu&quot;:&quot;http://www.meijialz.com/company/&quot;,&quot;ly&quot;:1,&quot;vt&quot;:&quot;20150822175236.230&quot;,&quot;cd&quot;:&quot;144023715623035090&quot;,&quot;gu&quot;:&quot;http://www.to8to.com/yezhu/zxbjWidget.php?mod=company&amp;zxjc_ptag=1_5_1_30&amp;zxbj_ptag=1_5_1_3&amp;t=201508071546&quot;,&quot;ov&quot;:&quot;01&quot;,&quot;lt&quot;:&quot;20150822175236.234&quot;},&quot;cv&quot;:{},&quot;cid&quot;:&quot;127a55efaf0e415fe7e8541c231c784796733&quot;}"></form></body></html>

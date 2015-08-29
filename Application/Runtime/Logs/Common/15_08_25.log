@@ -1,0 +1,24 @@
+[ 2015-08-25T15:57:42+08:00 ] 192.168.2.105 /index.php/index/index/wechat/gh_9b97a51160aa?code=021a4599713bd480d3b32e571fd0b27o&state=1440489461804
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001297s ]
+ERR: 无法加载模块:Index
+
+[ 2015-08-25T15:57:53+08:00 ] 192.168.2.105 /index.php/index/index/wechat/gh_9b97a51160aa?code=001e7c541b92a5c94d555ff62df346cl&state=1440489472840
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+ERR: 无法加载模块:Index
+
+[ 2015-08-25T15:58:08+08:00 ] 192.168.2.105 /index.php/index/index/wechat/gh_9b97a51160aa?code=02140ed3ac409e404b59a6bdfcce972h&state=1440489488772
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+ERR: 无法加载模块:Index
+
+[ 2015-08-25T17:22:36+08:00 ] 192.168.2.105 /index.php/index/index/wechat/gh_9b97a51160aa?code=0019caee4d0c1509cb03ac70d33ce45D&state=1440489488772
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001128s ]
+ERR: 无法加载模块:Index
+
